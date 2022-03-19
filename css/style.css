@@ -1,6 +1,8 @@
 body{
     margin: 50px;
     padding: 0;
+    background-color: black;
+    color: white;
 }
 
 .country{
@@ -8,10 +10,16 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
    text-align: center;
+
 }
 .countries{
-    border: 1px solid red;
+    border: 1px solid rgb(138, 84, 84);
+    border-radius: 20px;
     padding: 20px;
+    background-color: white;
+    box-shadow: 0px  0px 15px rgb(240, 194, 194);
+    color: black;
+
 }
 
 .countries img{
