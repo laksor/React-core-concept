@@ -19,5 +19,6 @@ Routes are chosen based on the best match instead of being traversed in order.
 Route: Route is the conditionally shown component that renders some UI 
 when its path matches the current URL.
 
-Link: Link component is used to create links to different routes and implement navigation around the application. It works like HTML anchor tag.
+Link: Link component is used to create links to different routes 
+and implement navigation around the application. It works like HTML anchor tag.
 */
