@@ -1,0 +1,22 @@
+body{
+    margin: 50px;
+    padding: 0;
+}
+
+.country{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+   text-align: center;
+}
+.countries{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.countries img{
+    width: 50%;
+}
+.text{
+    text-align: center !important;
+}
